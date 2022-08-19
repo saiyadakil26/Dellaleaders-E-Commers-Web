@@ -3,7 +3,7 @@ import PageHeader from "./PageHeader"
 import styles from '../styles/Home.module.css'
 import {useRouter} from 'next/router'
 
-export default function about(){
+export default function About(){
     const rout = useRouter();
     return(
         <>
