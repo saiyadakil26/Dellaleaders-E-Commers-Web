@@ -2,8 +2,9 @@ import PageHeader from './PageHeader'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from './Navbar'
-
+import { useRouter } from 'next/router'
 export default function Home() {
+  const rout=useRouter();
   return (
     <div>
       <PageHeader/>
@@ -16,10 +17,10 @@ export default function Home() {
         </p>
         College of Agricultural Information Technology was established in the year 2009 under the aegis of Anand Agricultural University. The CAIT offers 4-yrs B.Tech. (AIT) program. The college aims to cater to the upcoming demands of the Agrarian Economy by generation of a young workforce skilled with knowhow of future ready Information and Communication Technology and imparting the same in Agricultural sector.
         <br></br>
-        <button className='p-2 my-4 border-solid border-2 border-white hover:bg-red-500 hover:border-black rounded-md'> College of AIT </button>
+        <button onClick={()=>rout.push('http://www.aau.in/college-menu/703')} className='p-2 my-4 border-solid border-2 border-white hover:bg-red-500 hover:border-black rounded-md'> College of AIT </button>
         </div>
       <div className='md:ml-64 xl:mr-44 xl:ml-0'>
-        <iframe height="250px" width="500px" src='https://youtube.com/embed/wKjNaQKeCOE?list=TLGGZvpEbQ5pG1cxODA4MjAyMg'></iframe>
+        <iframe height="400px" width="800px" src='https://youtube.com/embed/wKjNaQKeCOE?list=TLGGZvpEbQ5pG1cxODA4MjAyMg'></iframe>
       </div>
       </div>
 <div className='flex flex-row'>
