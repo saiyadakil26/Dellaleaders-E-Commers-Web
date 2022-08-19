@@ -2,8 +2,10 @@ import Navbar from "./Navbar"
 import PageHeader from "./PageHeader"
 import styles from '../styles/Home.module.css'
 import { useRouter } from "next/router"
+
 export default function about(){
-    const rout=useRouter()
+    const rout=useRouter();
+    
     return(
         <>
         <Navbar/>
