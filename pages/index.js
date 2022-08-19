@@ -10,7 +10,7 @@ export default function Home() {
       <Navbar/>
       <main className={styles.main} >
         <div className='flex flex-col lg:flex-row'>
-        <div className=' md:ml-44 mx-10 w-[100%] my-10'><p className=' text-4xl'>WORLD'S 1ST ONINE SHOPING PLATFORM</p>
+        <div className=' md:ml-44 mx-10 w-[100%] my-10'><p className=' text-4xl'>WORLD 1ST ONINE SHOPING PLATFORM</p>
         <br></br>
         <p className='leading-normal'>This is A Home Page Design By Me.
         </p>
