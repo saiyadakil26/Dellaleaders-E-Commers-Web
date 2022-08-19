@@ -24,24 +24,24 @@ export default function Home() {
       </div>
 <div className='flex flex-row'>
 <div className=' bg-yellow-600 p-2 ml-2'>National Centers</div>
-<div className=' bg-slate-400 p-2 flex space-x-3'>
+<div className=' bg-slate-400 p-2 flex space-x-3 w-auto'>
   <p>Gujarat</p>
   <p>Rajasthan</p>
   <p>Andaman</p>
   <p>Chhattisgarh</p>
-  <p>Kerala</p>
-  <p>Delhi</p>
-  <p>Maharashtra</p>
-  <p>Assam</p>
-  <p>Meghalaya</p>
-  <p>Uttarakhand</p>
-  <p>Tripura</p>
-  <p>Uttar Pradesh</p>
-  <p>Tamil Nadu</p>
-  <p>Daman</p>
-  <p>Kashmir</p>
-  <p>Sikkim</p>
-  <p>Tripura</p>
+  <p className=' hidden md:block'>Kerala</p>
+  <p className=' hidden md:block'>Delhi</p>
+  <p className=' hidden md:block'>Maharashtra</p>
+  <p className=' hidden lg:block'>Assam</p>
+  <p className=' hidden lg:block'>Meghalaya</p>
+  <p className=' hidden lg:block'>Uttarakhand</p>
+  <p className=' hidden lg:block'>Tripura</p>
+  <p className=' hidden lg:block'>Uttar Pradesh</p>
+  <p className=' hidden lg:block'>Tamil Nadu</p>
+  <p className=' hidden xl:block'>Daman</p>
+  <p className=' hidden xl:block'>Kashmir</p>
+  <p className=' hidden xl:block'>Sikkim</p>
+  <p className=' hidden xl:block'>Tripura</p>
   </div>
 </div>
 <div className=' text-center'>
@@ -50,7 +50,7 @@ export default function Home() {
 </div>
       </main>
       
-<div className=' bg-white flex flex-row pl-12'>
+<div className=' bg-white flex flex-row pl-12  justify-center'>
  <div className=' bg-slate-300 m-5 '>
  <img src='https://randomuser.me/api/portraits/men/8.jpg' width="200px"></img>
  </div>
