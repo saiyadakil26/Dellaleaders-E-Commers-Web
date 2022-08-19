@@ -46,7 +46,7 @@ export default function Home() {
 </div>
 <div className=' text-center'>
 <p className=' text-4xl mt-10 '>IN THE NEWS</p>
-<p className=' text-xl mt-2 '>let's see</p>
+<p className=' text-xl mt-2 '>lets see</p>
 </div>
       </main>
       
