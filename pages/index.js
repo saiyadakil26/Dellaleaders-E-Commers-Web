@@ -20,7 +20,7 @@ export default function Home() {
         <button onClick={()=>rout.push('http://www.aau.in/college-menu/703')} className='p-2 my-4 border-solid border-2 border-white hover:bg-red-500 hover:border-black rounded-md'> College of AIT </button>
         </div>
       <div className='md:ml-64 xl:mr-44 xl:ml-0'>
-        <iframe height="400px" width="800px" src='https://youtube.com/embed/wKjNaQKeCOE?list=TLGGZvpEbQ5pG1cxODA4MjAyMg'></iframe>
+        <iframe height="250px" width="500px" src='https://youtube.com/embed/wKjNaQKeCOE?list=TLGGZvpEbQ5pG1cxODA4MjAyMg'></iframe>
       </div>
       </div>
 <div className='flex flex-row'>
